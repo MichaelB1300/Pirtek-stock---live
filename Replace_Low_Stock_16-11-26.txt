@@ -1,0 +1,114 @@
+STOCK TO REPLACE - NOVEMBER 2026
+Fittings under 20 left, hose under 50 m left
+
+CODE                REPLACE    LEFT
+2SN-06                 24.3    40.5
+2SN-10                  7.1    46.8
+4SP-16                 2.57    25.3
+622-354               24.36   45.15
+EVW-06L                   4       9
+MPH-06                    4      26
+MPH-16                  1.3    28.1
+R2AT-04                 1.4     3.6
+R2AT-06                 8.4    40.8
+SS-32                  1.08       0
+STH-08                 3.85   38.95
+TP1WX2-06               7.8    10.2
+050-SSC32                 2       0
+421-955                   1       5
+AH-2416                   2       0
+BF1-0806LPT               4       9
+BF1-0808LPT              18      15
+BF1-1210LPT               1      -1
+BF9-1212LPT               1      18
+BF9-1616LPT               1      11
+BTM1-0808LPT              1      11
+CFN-32                    3       0
+DLF1-3012LPT              5      15
+DSF1-2408LPT              2      19
+EPK-060606                2      18
+I2B-0806                  9      14
+I2B-3232                  1       2
+I2B9-0808                 4      11
+I2B9-0808C                1      16
+I2C9-1404                 1      16
+I2CM-1404                 1      12
+I2D4-2408                 1      19
+I2DM-4216                 1      10
+I2F-1212                  1      13
+I2J-0906                  6      19
+I2T-1210                  1      19
+I2T-2424                  1       8
+I4FLH9-1212               1      15
+I4FLH9-1616               1      15
+JF1-0904LPT               4      13
+JF1-1712LPT               2      16
+JF4-0904                  1       3
+JF9-1208LPT               2      10
+JF9-1712LPT               3      19
+JM1-1408LPT               2      16
+OF1-1010LPT               1      12
+OF9-1212LPT               1      19
+X40JF32                   2       0
+XTCL-32                   2       0
+2MA-4JMS                  4       4
+A-1216                    1      10
+AAM-0202                 10      15
+AAM-0806                  3      13
+AH-0806                   4      15
+AH-1608                   1       6
+AP-16                     2      19
+AR-2420                   1       2
+AU-09                    10      14
+B-0606                    6       9
+BUZ-25S                   2      -2
+C-0207                   10       1
+CAB-0909                 10      16
+CMA-121212                1       1
+CVD-0606                  2       8
+CVJ-0606                  2       3
+D-0402                    2       4
+DW-14M                    6       5
+G-06LL                    2       6
+G-08L                     1      16
+G-18L                     1      18
+G-25S                     2      10
+GE-06L1/4NPT             10      10
+GE-06L1/8NPT              4       9
+GE-15LR3/8                2      18
+P-1212                    3      12
+RI-1612                   3      10
+WE-06L1/8NPT              2       0
+6601/2 - 06               6       0
+6601/2 -16                2       6
+593409                    1       0
+P700                      1       0
+P702                      1       0
+3211                      4       4
+500038                  1.5     5.5
+6MM-B/TUBE              4.7    16.6
+8MM-B/TUBE              0.6       6
+CAB-1717                  2       0
+COV-16 HP                 1       0
+CV D/L AKONPA             1       4
+CV1L-08QMDT               1       7
+E25                       2      -1
+FC3/8NC                   2       0
+FSS                       1       3
+HL509                     2       5
+HYD 50 CC                 1       3
+HYD 80 CC                 1       1
+HYDT60                    1       2
+INCAB CNT                 1       3
+LG INSPECTION 127MM       2       4
+P1002                     1       4
+P1003                     1       5
+P1005                     2       7
+PP60HP                    2       4
+SSG-025BL              24.7      12
+T/N B                     2       6
+TANK B                    1       0
+TPE-12                    1      14
+TPL-1202                  2       0
+WC12                      2       4
+WC65                      1       7
