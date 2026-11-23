@@ -350,3 +350,4 @@
 2026-11-23|E063122|Supplier invoice|HAW E063122 P-WV 10 L (W10L) R58.94, PO PIR0013996, manual DN 113428 (job not stated)|2026-11-23 HAW E063122 (PIR0013996).pdf
 2026-11-23|IPE178483|Supplier invoice|SAC IPE178483 PDF copy (gearbox oil for DN 23888)|2026-11-23 SAC IPE178483 (DN 23888).pdf
 2026-11-23|Restock|Restock note|WH400 restock 23-11-26 (Jan): 4 x OF1-0404LPT (replaces PL 216937)|2026-11-23 WH400 restock (Jan).jpg
+2026-11-19|287269|Supplier invoice|Mr Screw 287269 cap screws, nuts, washers R151.44 excl, order 13984 (job not stated)|2026-11-19 Mr Screw 287269 (order 13984).pdf
