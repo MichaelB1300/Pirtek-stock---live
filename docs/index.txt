@@ -335,3 +335,10 @@
 2026-11-20|PL 216843|Job card|PL 216843 Formex (make up hyd hose for compressor, Markman; used out of WH100, Dillyn)|2026-11-20 PL 216843 (Formex).jpg
 2026-11-20|PL 216844|Job card|PL 216844 Denys Edwards (recrimp fitting, Burman Road; Dillyn WH300)|2026-11-20 PL 216844 (Denys Edwards).jpg
 2026-11-20|PL 216966|Job card|PL 216966 USS Crane Hire (fix broken hyd pipe in man lift, Sidwell; Bradley WH500)|2026-11-20 PL 216966 (USS Crane Hire).jpg
+2026-11-16|PL 216956|Job card|PL 216956 Beat On (order 13971: replace hyd pump 61CC 4 bolt, new filter, 60 L oil; Bradley WH500 card, stock from WH100)|2026-11-16 PL 216956 (Beat On).jpg
+2026-11-10|DN 23844|JLM work order|JLM work order WO03074 Eazi Access|2026-11-10 JLM WO03074 (Eazi Access).jpg
+2026-11-10|DN 23843|JLM work order|JLM work order WO03072 SAFLog (DN 23718 + 23843)|2026-11-10 JLM WO03072 (SAFLog (DN 23718 + 23843)).jpg
+2026-11-16|DN 23861|JLM work order|JLM work order WO02950 South Cape Trailer Spares|2026-11-16 JLM WO02950 (South Cape Trailer Spares).jpg
+2026-11-16|DN 23850|JLM work order|JLM work order WO03078 Africa Biomass|2026-11-16 JLM WO03078 (Africa Biomass).jpg
+2026-11-23|PL 216971|Job card|PL 216971 Pieter Rademeyer (replace couplers on TL13 Hamm, Malabar; Bradley WH500)|2026-11-23 PL 216971 (Pieter Rademeyer).jpg
+2026-11-23|PL 216970|Job card|PL 216970 Much Asphalt (replace pressure pipe on Extec screen plant, Malabar; Bradley WH500)|2026-11-23 PL 216970 (Much Asphalt).jpg
