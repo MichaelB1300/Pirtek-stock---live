@@ -1,0 +1,185 @@
+<title>WH100 Spot Count</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column, sticky search bar on top, sticky send bar at the bottom; rows read like a stores bin card */
+:root{
+  --bg:#f3f5f4; --panel:#ffffff; --ink:#18201d; --muted:#5c6a64; --line:#d8dfdc;
+  --accent:#d8a400; --accent-ink:#1a1500; --go:#1f8a4c; --go-ink:#ffffff; --filled:#fff6d6;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Barlow",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121614; --panel:#1b211e; --ink:#e7ece9; --muted:#9aa8a1; --line:#2d3632;
+  --accent:#e9b820; --accent-ink:#1a1500; --go:#2fae66; --go-ink:#06140c; --filled:#3a3313; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614; --panel:#1b211e; --ink:#e7ece9; --muted:#9aa8a1; --line:#2d3632;
+  --accent:#e9b820; --accent-ink:#1a1500; --go:#2fae66; --go-ink:#06140c; --filled:#3a3313; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.4}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 120px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+h1{font-family:var(--display);font-weight:700;font-size:30px;letter-spacing:.02em;margin:0;text-transform:uppercase;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 14px}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+input,select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:9px 10px;min-width:0;width:100%}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;font:600 13px var(--body);border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+h2{font-family:var(--display);font-size:20px;letter-spacing:.05em;text-transform:uppercase;margin:18px 0 6px;display:flex;justify-content:space-between;align-items:baseline}
+h2 small{font:500 13px var(--body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 92px;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line)}
+.row.done{background:var(--filled);margin:0 -8px;padding-left:8px;padding-right:8px;border-radius:4px}
+.code{font-family:var(--mono);font-size:14px;font-weight:500;overflow-wrap:anywhere}
+.desc{font-size:12.5px;color:var(--muted);overflow-wrap:anywhere}
+.row input{text-align:right;font-variant-numeric:tabular-nums;padding:8px}
+.unit{font-size:11px;color:var(--muted);text-align:right;margin-top:2px}
+.extra{margin-top:22px;padding:12px;border:1px dashed var(--line);border-radius:8px}
+.extra p{margin:0 0 8px;color:var(--muted);font-size:13px}
+.xrow{display:grid;grid-template-columns:minmax(0,1fr) 92px;gap:10px;margin-bottom:8px}
+button{font:600 15px var(--body);border:0;border-radius:8px;padding:11px 16px;cursor:pointer}
+.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.foot{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--panel);border-top:1px solid var(--line);padding-block:10px calc(10px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.foot .in{max-width:720px;margin:0 auto;display:flex;gap:10px;align-items:center;justify-content:space-between}
+.count{font-variant-numeric:tabular-nums;color:var(--muted)}
+.count b{color:var(--ink);font-size:18px}
+.primary{background:var(--accent);color:var(--accent-ink)}
+.send{background:var(--go);color:var(--go-ink);text-decoration:none;display:inline-block;border-radius:8px;padding:11px 16px;font-weight:600}
+.sheet{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center}
+.sheet .card{background:var(--panel);width:100%;max-width:720px;max-height:88%;overflow:auto;border-radius:14px 14px 0 0;padding:16px max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.card h3{font-family:var(--display);font-size:22px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 6px}
+.card p{margin:0 0 10px;color:var(--muted);font-size:13.5px}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px;font:12.5px/1.45 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere;max-height:40vh;overflow:auto;margin:0 0 10px}
+.parts{display:flex;flex-direction:column;gap:14px}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+.empty{color:var(--muted);padding:20px 0;text-align:center}
+.warn{color:var(--ink);background:var(--filled);border-radius:6px;padding:8px 10px;font-size:13px;margin-bottom:10px}
+@media (prefers-reduced-motion:no-preference){.row{transition:background .15s}}
+.idx{display:grid;gap:8px;margin-top:6px}
+.gl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none}
+.gl b{font-family:var(--display);font-size:19px;letter-spacing:.04em;text-transform:uppercase}
+.gl span{color:var(--muted);font-size:13px;grid-column:1}
+.gl em{grid-row:1/3;grid-column:2;font-style:normal;font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;text-align:right}
+.gl em strong{display:block;color:var(--ink);font-size:16px}
+.back{color:var(--muted);text-decoration:none;font-size:13px;font-weight:600}
+.tag{font-family:var(--mono);font-size:12px;color:var(--muted)}
+</style>
+
+<div class="wrap" id="home">
+  <h1>WH100 Spot Count</h1>
+  <p class="sub">Main warehouse, Pirtek PE. Pick a section to count. Each section has its own link you can send to one person.</p>
+  <div class="idx" id="idx"></div>
+</div>
+
+<div class="wrap" id="count" hidden>
+  
+  <h1 id="gt">WH100</h1>
+  <p class="sub" id="gd"></p>
+  <div class="meta">
+    <label class="f">Counted by<input id="who" autocomplete="name" placeholder="Your name"></label>
+    <label class="f">Link<span class="tag" id="gtag"></span></label>
+  </div>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search code or description" autocomplete="off">
+    <div class="chips" id="chips" role="group" aria-label="Show"></div>
+  </div>
+  <div id="list"></div>
+  <div class="extra">
+    <p>Found something in this section that is not on the list? Add the code and quantity here.</p>
+    <div id="extras"></div>
+    <button class="ghost" id="addx" type="button">Add another code</button>
+  </div>
+</div>
+<div class="foot" id="foot" hidden><div class="in">
+  <span class="count"><b id="n">0</b> lines counted</span>
+  <span class="acts"><button class="ghost" id="clear" type="button">Clear</button><button class="primary" id="go" type="button">Send count</button></span>
+</div></div>
+<div class="sheet" id="sheet" hidden><div class="card" role="dialog" aria-modal="true" aria-labelledby="sh">
+  <h3 id="sh">Send on WhatsApp</h3>
+  <div id="sheetbody"></div>
+</div></div>
+
+<script>
+const GROUPS=[{"k": "spot", "n": "Spot count 23-11-26", "d": "15 fittings and collars, count what is in the unit"}];
+const DATA=[{"c": "JM1-0704LPT", "d": "7/16 JIC MALE STR 1/4 BRAIDED HOSE", "u": "each", "g": "spot"}, {"c": "CFN-10", "d": "SWAGE FERRULE 2 WIRE x -10 HOSE", "u": "each", "g": "spot"}, {"c": "CFN-06", "d": "SWAGE FERRULE 2 WIRE x -06 HOSE", "u": "each", "g": "spot"}, {"c": "BF1-0808LPT", "d": "1/2 BSPP FEMALE STR 1/2 BRAIDED HOSE", "u": "each", "g": "spot"}, {"c": "ZN7-08", "d": "SWAGE FERRULE NUMEROUS HOSES", "u": "each", "g": "spot"}, {"c": "CFN-04", "d": "SWAGE FERRULE 2 WIRE x -04 HOSE", "u": "each", "g": "spot"}, {"c": "I2C-1806", "d": "-18 DKL FEMALE X -06 HOSE", "u": "each", "g": "spot"}, {"c": "420-910", "d": "FERRULE - GREASING HOSE 3/16\"", "u": "each", "g": "spot"}, {"c": "421-910", "d": "6MM STANDPIPE STRAIGHT GREASING HOSE", "u": "each", "g": "spot"}, {"c": "BF1-0404LPT", "d": "1/4 BSPP FEMALE STR 1/4 BRAIDED HOSE", "u": "each", "g": "spot"}, {"c": "BF1-1212LPT", "d": "3/4 BSPP FEMALE STR 3/4 BRAIDED HOSE", "u": "each", "g": "spot"}, {"c": "I2J-1208", "d": "-12 JIC FEMALE x -08 HOSE", "u": "each", "g": "spot"}, {"c": "ZN7-06", "d": "SWAGE FERRULE NUMEROUS HOSES", "u": "each", "g": "spot"}, {"c": "CFN-08", "d": "SWAGE FERRULE 2 WIRE x -08 HOSE", "u": "each", "g": "spot"}, {"c": "BF9-0606LPT", "d": "3/8 BSPP FEMALE 90 DEG 3/8 BRAIDED HOSE", "u": "each", "g": "spot"}];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const filled=v=>v!==undefined&&v!==null&&String(v).trim()!=='';
+let G=null, st=null, mode='all';
+const blank=()=>({who:'',q:{},x:[{c:'',v:''}]});
+function load(k){try{return Object.assign(blank(),JSON.parse(localStorage.getItem('wh100-23-11-26-'+k)||'null')||{})}catch(e){return blank()}}
+function save(){try{localStorage.setItem('wh100-23-11-26-'+G.k,JSON.stringify(st))}catch(e){}}
+function rows(){return DATA.filter(d=>d.g===G.k)}
+function home(){
+  G=null; $('home').hidden=false; $('count').hidden=true; $('foot').hidden=true; document.title="WH100 Spot Count";
+  $('idx').innerHTML=GROUPS.map(g=>{const s=load(g.k);const done=Object.keys(s.q).filter(k=>filled(s.q[k])).length;const tot=DATA.filter(d=>d.g===g.k).length;
+    return `<a class="gl" href="#${g.k}"><b>${esc(g.n)}</b><span>${esc(g.d)}</span><em><strong>${tot}</strong>codes${done?`<br>${done} counted here`:''}</em></a>`}).join('');
+}
+function open(k){
+  G=GROUPS.find(g=>g.k===k); if(!G) return home();
+  st=load(k); mode='all'; $('home').hidden=true; $('count').hidden=false; $('foot').hidden=false;
+  $('gt').textContent='WH100 · '+G.n; $('gd').textContent=G.d+'. Type what is on the shelf, then send the count on WhatsApp.';
+  $('gtag').textContent='#'+G.k; document.title="WH100 Spot Count";
+  $('who').value=st.who; $('q').value=''; drawChips(); drawX(); render(); window.scrollTo(0,0);
+}
+function route(){ open("spot"); }
+window.addEventListener('hashchange',route);
+$('who').oninput=e=>{st.who=e.target.value;save()};
+const chips=[['all','All codes'],['done','Counted only'],['todo','Not counted yet']];
+function drawChips(){$('chips').innerHTML=chips.map(([k,l])=>`<button class="chip" type="button" data-k="${k}" aria-pressed="${k===mode}">${l}</button>`).join('')}
+$('chips').onclick=e=>{const k=e.target.dataset&&e.target.dataset.k;if(!k)return;mode=k;drawChips();render()};
+let qt;$('q').oninput=()=>{clearTimeout(qt);qt=setTimeout(render,120)};
+function render(){
+  const q=$('q').value.trim().toLowerCase().replace(/\s+/g,'');
+  const all=rows(), r=all.filter(d=>(!q||(d.c+d.d).toLowerCase().replace(/\s+/g,'').includes(q))&&(mode==='all'||(mode==='done')===filled(st.q[d.c])));
+  const done=all.filter(d=>filled(st.q[d.c])).length;
+  $('list').innerHTML=`<h2>${esc(G.n)}<small>${done} of ${all.length} counted</small></h2>`+(r.length?r.map(d=>{const v=st.q[d.c]??'';return `<div class="row${filled(v)?' done':''}"><div><div class="code">${esc(d.c)}</div><div class="desc">${esc(d.d)}</div></div><div><input id="q_${esc(d.c)}" data-c="${esc(d.c)}" inputmode="decimal" aria-label="Quantity ${esc(d.c)}" value="${esc(v)}"><div class="unit">${d.u}</div></div></div>`}).join(''):'<p class="empty">No codes match. Check the spelling, or add it under "not on the list" below.</p>');
+  count();
+}
+$('list').addEventListener('input',e=>{const c=e.target.dataset.c;if(!c)return;const v=e.target.value.replace(',','.');
+  if(v.trim()==='')delete st.q[c];else st.q[c]=v;e.target.closest('.row').classList.toggle('done',filled(v));save();count()});
+function drawX(){$('extras').innerHTML=st.x.map((x,i)=>`<div class="xrow"><input id="xc${i}" data-i="${i}" data-f="c" placeholder="Code" value="${esc(x.c)}" aria-label="Extra code ${i+1}"><input id="xv${i}" data-i="${i}" data-f="v" inputmode="decimal" placeholder="Qty" value="${esc(x.v)}" aria-label="Extra quantity ${i+1}"></div>`).join('')}
+$('extras').addEventListener('input',e=>{const i=e.target.dataset.i;if(i===undefined)return;st.x[i][e.target.dataset.f]=e.target.value;save();count()});
+$('addx').onclick=()=>{st.x.push({c:'',v:''});save();drawX()};
+function lines(){
+  const out=[];const r=rows().filter(d=>filled(st.q[d.c])).map(d=>`${d.c} = ${String(st.q[d.c]).trim()}`);
+  if(r.length)out.push({s:G.n,rows:r});
+  const xs=st.x.filter(x=>x.c.trim()&&filled(x.v)).map(x=>`${x.c.trim().toUpperCase()} = ${x.v.trim()}`);
+  if(xs.length)out.push({s:'Not on the list',rows:xs});
+  return out;
+}
+function count(){$('n').textContent=lines().reduce((a,b)=>a+b.rows.length,0)}
+function now(){const d=new Date(),p=n=>String(n).padStart(2,'0');return `${d.getFullYear()}/${p(d.getMonth()+1)}/${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`}
+function build(){
+  const title=`*WH100 SPOT COUNT 23-11-26*`;
+  const head=`${title}\nUnit: WH100 Main Warehouse\nCounted by: ${st.who.trim()||'-'}\nDate: ${now()}`;
+  const blocks=lines().map(b=>`\n*${b.s.toUpperCase()}* (${b.rows.length})\n`+b.rows.join('\n'));
+  const MAX=3000,parts=[];let cur=head;
+  for(const b of blocks){for(const l of b.split('\n')){if((cur+'\n'+l).length>MAX){parts.push(cur);cur=title;}cur+='\n'+l;}}
+  parts.push(cur);
+  return parts.length>1?parts.map((p,i)=>p.replace(title,`${title.slice(0,-1)} – part ${i+1} of ${parts.length}*`)):parts;
+}
+$('go').onclick=()=>{
+  const n=+$('n').textContent;
+  if(!n){$('sheetbody').innerHTML='<p>Nothing counted yet. Type a quantity next to at least one code first.</p><div class="acts"><button class="ghost" id="cl" type="button">Back</button></div>'}
+  else{const parts=build();
+    $('sheetbody').innerHTML=(st.who.trim()?'':'<div class="warn">Add your name under "Counted by" so Michael knows who counted.</div>')+
+      `<p>${n} lines. ${parts.length>1?`The count is long, so it is split into ${parts.length} messages. Send them in order.`:'Tap Open WhatsApp and choose the chat to send it to. If WhatsApp does not open, copy the text and paste it in the chat.'}</p><div class="parts">`+
+      parts.map((p,i)=>`<div><pre id="p${i}">${esc(p)}</pre><div class="acts"><a class="send" href="https://wa.me/?text=${encodeURIComponent(p)}" target="_blank" rel="noopener">Open WhatsApp${parts.length>1?` (part ${i+1})`:''}</a><button class="ghost" type="button" data-copy="${i}">Copy text</button></div></div>`).join('')+
+      '</div><div class="acts" style="margin-top:14px"><button class="ghost" id="cl" type="button">Back to count</button></div>'}
+  $('sheet').hidden=false;$('cl').onclick=()=>{$('sheet').hidden=true};
+};
+$('sheetbody').addEventListener('click',e=>{const i=e.target.dataset&&e.target.dataset.copy;if(i===undefined)return;
+  const t=$('p'+i).textContent,b=e.target;
+  const sel=()=>{const r=document.createRange();r.selectNodeContents($('p'+i));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected – press copy'};
+  try{navigator.clipboard.writeText(t).then(()=>{b.textContent='Copied'},sel)}catch(err){sel()}});
+$('sheet').addEventListener('click',e=>{if(e.target.id==='sheet')$('sheet').hidden=true});
+let armed=false;
+$('clear').onclick=e=>{if(!armed){armed=true;e.target.textContent='Tap again to clear';setTimeout(()=>{armed=false;e.target.textContent='Clear'},3000);return}
+  st=blank();save();$('who').value='';drawX();render();armed=false;e.target.textContent='Clear'};
+route();
+</script>
