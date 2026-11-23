@@ -342,3 +342,5 @@
 2026-11-16|DN 23850|JLM work order|JLM work order WO03078 Africa Biomass|2026-11-16 JLM WO03078 (Africa Biomass).jpg
 2026-11-23|PL 216971|Job card|PL 216971 Pieter Rademeyer (replace couplers on TL13 Hamm, Malabar; Bradley WH500)|2026-11-23 PL 216971 (Pieter Rademeyer).jpg
 2026-11-23|PL 216970|Job card|PL 216970 Much Asphalt (replace pressure pipe on Extec screen plant, Malabar; Bradley WH500)|2026-11-23 PL 216970 (Much Asphalt).jpg
+2026-11-23|PL 216937|Job card|PL 216937 SKCJ (MSC) (replace hydraulic hoses on JF3, Coega; Jan WH400)|2026-11-23 PL 216937 (SKCJ MSC).jpg
+2026-11-23|Restock|Restock note|WH500 restock 23-11-26 (Bradley): 10 BF1-0808LPT, 2 CFN-08, 2 CFN-12, I2J-1712, I2J-1708, I2J9-1712|2026-11-23 WH500 restock (Bradley).jpg
