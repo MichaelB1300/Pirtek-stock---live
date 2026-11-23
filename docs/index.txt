@@ -347,3 +347,5 @@
 2026-11-23|PL 216972|Job card|PL 216972 Value (fix leaking hose on 12L3 attachment, Komatsu F727, Sidwell; WH500 Bradley assumed)|2026-11-23 PL 216972 (Value).jpg
 2026-11-23|IPE178483|Supplier invoice|SAC IPE178483 gearbox oil 75W-80 20 L for DN 23888 Gxobole (PIR13998)|2026-11-23 SAC IPE178483 (DN 23888).jpg
 2026-11-23|DN 23888|Delivery note|DN 23888 Gxobole Building & Civils (61cc gear pump warranty, quote 13194, Isuzu MW14FTCP; Jan)|2026-11-23 DN 23888 (Gxobole).jpg
+2026-11-23|E063122|Supplier invoice|HAW E063122 P-WV 10 L (W10L) R58.94, PO PIR0013996, manual DN 113428 (job not stated)|2026-11-23 HAW E063122 (PIR0013996).pdf
+2026-11-23|IPE178483|Supplier invoice|SAC IPE178483 PDF copy (gearbox oil for DN 23888)|2026-11-23 SAC IPE178483 (DN 23888).pdf
