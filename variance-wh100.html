@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>WH100 Variances</title>
+<style>
+:root{--bg:#f3f5f4;--panel:#fff;--ink:#18201d;--muted:#5c6a64;--line:#d8dfdc;--up:#1f7a45;--down:#b42318;--btn:#1f8a4c}
+@media (prefers-color-scheme:dark){:root{--bg:#121614;--panel:#1b211e;--ink:#e7ece9;--muted:#9aa8a1;--line:#2d3632;--up:#6ee7a0;--down:#ff8a7a;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:22px;margin:4px 0}p{color:var(--muted);margin:6px 0 14px}
+label{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+input,textarea{width:100%;box-sizing:border-box;font:inherit;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;margin:10px 0}
+.top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.code{font-weight:700;font-family:ui-monospace,monospace}.d{color:var(--muted);font-size:13px}
+.nums{display:flex;gap:14px;font-size:14px;margin:6px 0 8px}.v{font-weight:700}.up{color:var(--up)}.down{color:var(--down)}
+textarea{min-height:44px;resize:vertical}
+.bar{position:sticky;bottom:0;background:var(--bg);padding:10px 0}
+a.send,button{display:inline-block;border:0;border-radius:8px;padding:11px 16px;font:inherit;font-weight:600;cursor:pointer;text-decoration:none}
+a.send{background:var(--btn);color:#fff}button{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+pre{white-space:pre-wrap;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px;font-size:13px}
+</style></head><body><main>
+<h1>WH100 spot count variances</h1>
+<p>Spot count 23-11-26. Counted differs from the sheet on these codes. Write next to each one why it differs (not booked, wrong code, sent to MSU, typo...), then tap Send on WhatsApp.</p>
+<label for="who">Explained by</label><input id="who" placeholder="Your name" autocomplete="name">
+<div id="list"></div>
+<div class="bar"><a class="send" id="go" target="_blank" rel="noopener">Send on WhatsApp</a> <button id="cp" type="button">Copy text</button></div>
+<pre id="pv"></pre>
+</main><script>
+const V=[{"c": "BF1-0404LPT", "d": "1/4 BSPP FEMALE STR 1/4 BRAIDED HOSE", "s": 14.0, "f": 10.0, "v": -4.0, "h": ""}, {"c": "BF1-0808LPT", "d": "1/2 BSPP FEMALE STR 1/2 BRAIDED HOSE", "s": 29.0, "f": 24.0, "v": -5.0, "h": ""}, {"c": "JM1-0704LPT", "d": "7/16 JIC MALE STR 1/4 BRAIDED HOSE", "s": -4.0, "f": 0.0, "v": 4.0, "h": ""}, {"c": "I2C-1806", "d": "-18 DKL FEMALE X -06 HOSE", "s": 16.0, "f": 17.0, "v": 1.0, "h": ""}, {"c": "420-910", "d": "FERRULE - GREASING HOSE 3/16\"", "s": 33.0, "f": 60.0, "v": 27.0, "h": ""}, {"c": "421-910", "d": "6MM STANDPIPE STRAIGHT GREASING HOSE", "s": 46.0, "f": 82.0, "v": 36.0, "h": ""}, {"c": "CFN-04", "d": "SWAGE FERRULE 2 WIRE x -04 HOSE", "s": 394.0, "f": 402.0, "v": 8.0, "h": ""}, {"c": "CFN-06", "d": "SWAGE FERRULE 2 WIRE x -06 HOSE", "s": 238.0, "f": 241.0, "v": 3.0, "h": ""}, {"c": "CFN-08", "d": "SWAGE FERRULE 2 WIRE x -08 HOSE", "s": 178.0, "f": 172.0, "v": -6.0, "h": ""}, {"c": "ZN7-06", "d": "SWAGE FERRULE NUMEROUS HOSES", "s": 47.0, "f": 51.0, "v": 4.0, "h": ""}, {"c": "ZN7-08", "d": "SWAGE FERRULE NUMEROUS HOSES", "s": 26.0, "f": 38.0, "v": 12.0, "h": ""}, {"c": "I2J-1208", "d": "-12 JIC FEMALE x -08 HOSE", "s": 21.0, "f": 194.0, "v": 173.0, "h": "Typo? Sheet shows 21"}], KEY='var-wh100-23-11-26', T="WH100 SPOT COUNT VARIANCES 23-11-26";
+const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let st={who:'',n:{}};try{st=Object.assign(st,JSON.parse(localStorage.getItem(KEY)||'{}'))}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
+const f=n=>Number.isInteger(n)?n:n.toFixed(2), sg=n=>(n>0?'+':'')+f(n);
+$('list').innerHTML=V.map((x,i)=>`<div class="card"><div class="top"><span class="code">${esc(x.c)}</span><span class="v ${x.v>0?'up':'down'}">${sg(x.v)}</span></div><div class="d">${esc(x.d)}</div>
+<div class="nums"><span>Sheet <b>${f(x.s)}</b></span><span>Counted <b>${f(x.f)}</b></span></div>
+<label for="n${i}">Reason</label><textarea id="n${i}" data-i="${i}" placeholder="${esc(x.h||'Why is it different?')}"></textarea></div>`).join('');
+$('who').value=st.who||''; V.forEach((x,i)=>{$('n'+i).value=st.n[x.c]||''});
+function msg(){return `*${T}*\nExplained by: ${(st.who||'').trim()||'-'}\n\n`+V.map(x=>`${x.c}: sheet ${f(x.s)}, counted ${f(x.f)} (${sg(x.v)})\n  Reason: ${(st.n[x.c]||'').trim()||'-'}`).join('\n')}
+function upd(){const m=msg();$('pv').textContent=m;$('go').href='https://wa.me/?text='+encodeURIComponent(m)}
+$('who').oninput=e=>{st.who=e.target.value;save();upd()};
+$('list').addEventListener('input',e=>{const i=e.target.dataset.i;if(i===undefined)return;st.n[V[i].c]=e.target.value;save();upd()});
+$('cp').onclick=()=>{navigator.clipboard.writeText(msg());$('cp').textContent='Copied'};
+upd();
+</script></body></html>
