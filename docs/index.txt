@@ -371,3 +371,4 @@
 2026-11-24||Supplier invoice|SAC IPE178597 (PIR14009): Scania S7 front mudguard rear trim L/h, R872.46 excl|2026-11-24 SAC IPE178597 (PIR14009).pdf
 2026-11-24||Supplier invoice|Big Max Express cash 9139 (order 14008): Fontaine fifth wheel + bolt kit, R18,114 excl, paid cash|2026-11-24 Big Max Express cash 9139 (order 14008).pdf
 2026-11-24||Supplier invoice|JMR Transport Solutions JTCINV138480 (PIR00014004): BPW brake shoes relined x4, repair kits x2, hubometer, R6,931.38 excl|2026-11-24 JMR JTCINV138480 (PIR14004).pdf
+2026-11-13|DN 23838|Delivery note|DN 23838 CRW Logistics (written CFW; 1 x diesel cap, SAC IPE177510 R500.19 excl; S/MAN JB; not invoiced yet)|2026-11-13 DN 23838 (CRW Logistics).jpg
