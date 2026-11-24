@@ -373,3 +373,7 @@
 2026-11-24||Supplier invoice|JMR Transport Solutions JTCINV138480 (PIR00014004): BPW brake shoes relined x4, repair kits x2, hubometer, R6,931.38 excl|2026-11-24 JMR JTCINV138480 (PIR14004).pdf
 2026-11-13|DN 23838|Delivery note|DN 23838 CRW Logistics (written CFW; 1 x diesel cap, SAC IPE177510 R500.19 excl; S/MAN JB; not invoiced yet)|2026-11-13 DN 23838 (CRW Logistics).jpg
 2026-11-24|QUO0013205|Quote|QUO0013205 ABSA VM fleet 1556 (JLG243EC) for PL 215943 Lactalis diesel tank weld, R3,550 excl|2026-11-24 QUO0013205 (ABSA VM fleet 1556, PL 215943).jpg
+2026-11-24|PL 217002|Job card|PL 217002 Lactalis fleet 1300 DPM543EC (workshop, Jan: bearing play, brakes, butterfly valve)|2026-11-24 PL 217002 (Lactalis).jpg
+2026-11-24|PL 217001|Job card|PL 217001 Lactalis fleet 1299 DNV041EC (workshop, Jan: brake shoes, spring kit, skim drums, bearings, tape, hubometer; JMR 14004)|2026-11-24 PL 217001 (Lactalis).jpg
+2026-11-24||Supplier invoice|Guth PEIN0031732: NW80 Hysan butterfly valve, R1,287 excl, card payment (PL 217002 Lactalis)|2026-11-24 Guth invoice (PEIN0031732).jpg
+2026-11-24|QUO0013206|Quote|QUO0013206 ABSA VM fleet 1299 (DNV041EC), ref PL216487 on quote, for PL 217001, R26,844 excl|2026-11-24 QUO0013206 (ABSA VM fleet 1299, PL 217001).jpg
