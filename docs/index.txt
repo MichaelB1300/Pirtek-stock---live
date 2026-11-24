@@ -381,3 +381,11 @@
 2026-11-23|PL 216973|Job card|PL 216973 CRH Africa (Sidwell; WH500 card BB, parts from WH100; 2 h; Arnschell, PE Hydraulics and Belting bought in)|2026-11-23 PL 216973 (CRH Africa).jpg
 2026-11-23||Supplier invoice|Arnschell 230133 (order 14001): 4 x 117-0202 1/8" M-F elbow, R110.50 excl (PL 216973 CRH Africa)|2026-11-23 Arnschell invoice (230133).jpg
 2026-11-24||Supplier invoice|PE Hydraulics I84644: 4 cotton cover hoses & fittings, R1,980 excl, card (PL 216973 CRH Africa)|2026-11-24 PE Hydraulics invoice (I84644).jpg
+2026-11-24|PL 216972|Invoice|INV0048400 Value Logistics (Komatsu F727, LM71037743)|INV0048400.pdf
+2026-11-24|PL 216974|Invoice|INV0048401 Value Logistics (Hangcha F2480, LM71037756)|INV0048401.pdf
+2026-11-24|DN 23837|Invoice|INV0048402 CRH Africa (22 x G 04-LL, order 103762)|INV0048402.pdf
+2026-11-24|PL 216951|Invoice|INV0048403 CRH Africa (order 103764, fittings per sample)|INV0048403.pdf
+2026-11-24|PL 216973|Invoice|INV0048404 CRH Africa (order 103767, press 53; lines do not match the card, queried)|INV0048404.pdf
+2026-11-24|PL 216961|Invoice|INV0048405 Afrimat (grease pipes and fittings)|INV0048405.pdf
+2026-11-24||Supplier invoice|HAW E063158 (PIR0014010, DN 113443): 16 x BSPF0808 = I2B-0808 @ R18.20, R291.20 excl, booked to WH100|2026-11-24 HAW invoice (E063158).pdf
+2026-11-24|GQ-PO-00000860/1|Invoice|INV0048406 Scribante Concrete (counter, no DN)|INV0048406.pdf
