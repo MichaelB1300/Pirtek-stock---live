@@ -355,3 +355,7 @@
 2026-11-24|PL 216849|Job card|PL 216849 Autoforce (make up hyd hose, Markman, DGY 273 NC; Dillyn WH300)|2026-11-24 PL 216849 (Autoforce).jpg
 2026-11-23|PL 216974|Job card|PL 216974 Value (fix steering pipe under forklift, Hangcha F2480; WH500 Bradley)|2026-11-23 PL 216974 (Value).jpg
 2026-11-23|PL 216848|Job card|PL 216848 Fecobrakes (make up hoses, Algoa Park; Dillyn WH300 + WH100)|2026-11-23 PL 216848 (Fecobrakes).jpg
+2026-11-24|PL 216850|Job card|PL 216850 Tribal House (replace couplers, Markman, MT84DDGP; Dillyn WH300)|2026-11-24 PL 216850 (Tribal House).jpg
+2026-11-24|Restock|Restock note|WH500 restock 23-11-26 + 24-11-26 (Bradley): replaces PL 216970, 216971, 216972, 216974|2026-11-24 WH500 restock (Bradley).jpg
+2026-11-24|Restock|Restock note|WH300 restock 24-11-26 (Dillyn): replaces PL 216844, 216846, 216848, 216849, 216850|2026-11-24 WH300 restock (Dillyn).jpg
+2026-11-24||Note / count|WH100 shelf counts W-0404 0, C-0408 279, R-0909 1|2026-11-24 WH100 shelf counts.jpg
