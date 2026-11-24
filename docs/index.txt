@@ -359,3 +359,8 @@
 2026-11-24|Restock|Restock note|WH500 restock 23-11-26 + 24-11-26 (Bradley): replaces PL 216970, 216971, 216972, 216974|2026-11-24 WH500 restock (Bradley).jpg
 2026-11-24|Restock|Restock note|WH300 restock 24-11-26 (Dillyn): replaces PL 216844, 216846, 216848, 216849, 216850|2026-11-24 WH300 restock (Dillyn).jpg
 2026-11-24||Note / count|WH100 shelf counts W-0404 0, C-0408 279, R-0909 1|2026-11-24 WH100 shelf counts.jpg
+2026-11-24|PL 216841|Invoice|INV0048374 re-issued 24-11-26 (Inni Bos, cash, R1,023.04; call out, travel and sundries taken off)|INV0048374.pdf
+2026-11-24|PL 216842|Invoice|INV0048395 Eazi Access Rental (Uitenhage)|INV0048395.pdf
+2026-11-23|DN 23887|Invoice|INV0048396 Goscor Lift Truck (brake hose)|INV0048396.pdf
+2026-11-23|DN 23885|Invoice|INV0048397 Joubert Construction (cash)|INV0048397.pdf
+2026-11-23|DN 23866|Invoice|INV0048351 re-issued to Protyre T/A Supatreads (was Don-Der Truck Repairs)|2026-11-23 INV0048351 (DN 23866 Protyre, re-issued).pdf
