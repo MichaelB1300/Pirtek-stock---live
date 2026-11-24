@@ -377,3 +377,4 @@
 2026-11-24|PL 217001|Job card|PL 217001 Lactalis fleet 1299 DNV041EC (workshop, Jan: brake shoes, spring kit, skim drums, bearings, tape, hubometer; JMR 14004)|2026-11-24 PL 217001 (Lactalis).jpg
 2026-11-24||Supplier invoice|Guth PEIN0031732: NW80 Hysan butterfly valve, R1,287 excl, card payment (PL 217002 Lactalis)|2026-11-24 Guth invoice (PEIN0031732).jpg
 2026-11-24|QUO0013206|Quote|QUO0013206 ABSA VM fleet 1299 (DNV041EC), ref PL216487 on quote, for PL 217001, R26,844 excl|2026-11-24 QUO0013206 (ABSA VM fleet 1299, PL 217001).jpg
+2026-11-24|PL 216938|Job card|PL 216938 Silver Falls (Markman, Scania KLD581EC; replace damaged ball valve, LPBV-20 from WH100; Jan, 1 h, 29 km)|2026-11-24 PL 216938 (Silver Falls).jpg
