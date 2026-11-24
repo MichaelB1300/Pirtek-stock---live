@@ -365,3 +365,9 @@
 2026-11-23|DN 23885|Invoice|INV0048397 Joubert Construction (cash)|INV0048397.pdf
 2026-11-23|DN 23866|Invoice|INV0048351 re-issued to Protyre T/A Supatreads (was Don-Der Truck Repairs)|2026-11-23 INV0048351 (DN 23866 Protyre, re-issued).pdf
 2026-11-23|DN 23889|Supplier invoice|Interpump pro-forma SQ00055118 (order 14000): 45cc hand pump + 10 L tank, R2,500 excl, for Otis DN 23889|2026-11-23 Interpump SQ00055118 (order 14000, DN 23889 Otis).jpg
+2026-11-24|PL 216850|Invoice|INV0048398 Tribal House (cash)|INV0048398.pdf
+2026-11-24|PL 216849|Invoice|INV0048399 Kalahari Auto Force|INV0048399.pdf
+2026-11-24||Supplier invoice|SAC IPE178594 (PIR14007): Scania S7 wheel arch / mudguard trims, battery cover + clips, R6,825.10 excl|2026-11-24 SAC IPE178594 (PIR14007).pdf
+2026-11-24||Supplier invoice|SAC IPE178597 (PIR14009): Scania S7 front mudguard rear trim L/h, R872.46 excl|2026-11-24 SAC IPE178597 (PIR14009).pdf
+2026-11-24||Supplier invoice|Big Max Express cash 9139 (order 14008): Fontaine fifth wheel + bolt kit, R18,114 excl, paid cash|2026-11-24 Big Max Express cash 9139 (order 14008).pdf
+2026-11-24||Supplier invoice|JMR Transport Solutions JTCINV138480 (PIR00014004): BPW brake shoes relined x4, repair kits x2, hubometer, R6,931.38 excl|2026-11-24 JMR JTCINV138480 (PIR14004).pdf
