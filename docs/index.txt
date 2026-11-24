@@ -352,3 +352,6 @@
 2026-11-23|Restock|Restock note|WH400 restock 23-11-26 (Jan): 4 x OF1-0404LPT (replaces PL 216937)|2026-11-23 WH400 restock (Jan).jpg
 2026-11-19|287269|Supplier invoice|Mr Screw 287269 cap screws, nuts, washers R151.44 excl, order 13984 (job not stated)|2026-11-19 Mr Screw 287269 (order 13984).pdf
 2026-11-23|32178131|Supplier invoice|Belting Supply / Bestobell 32178131: 15 m 32mm PVC helisteel hose R900 excl, order 14002 (job not stated)|2026-11-23 Belting 32178131 (order 14002).pdf
+2026-11-24|PL 216849|Job card|PL 216849 Autoforce (make up hyd hose, Markman, DGY 273 NC; Dillyn WH300)|2026-11-24 PL 216849 (Autoforce).jpg
+2026-11-23|PL 216974|Job card|PL 216974 Value (fix steering pipe under forklift, Hangcha F2480; WH500 Bradley)|2026-11-23 PL 216974 (Value).jpg
+2026-11-23|PL 216848|Job card|PL 216848 Fecobrakes (make up hoses, Algoa Park; Dillyn WH300 + WH100)|2026-11-23 PL 216848 (Fecobrakes).jpg
