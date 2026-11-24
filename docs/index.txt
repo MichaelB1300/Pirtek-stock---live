@@ -369,7 +369,7 @@
 2026-11-24|PL 216849|Invoice|INV0048399 Kalahari Auto Force|INV0048399.pdf
 2026-11-24||Supplier invoice|SAC IPE178594 (PIR14007): Scania S7 wheel arch / mudguard trims, battery cover + clips, R6,825.10 excl|2026-11-24 SAC IPE178594 (PIR14007).pdf
 2026-11-24||Supplier invoice|SAC IPE178597 (PIR14009): Scania S7 front mudguard rear trim L/h, R872.46 excl|2026-11-24 SAC IPE178597 (PIR14009).pdf
-2026-11-24||Supplier invoice|Big Max Express cash 9139 (order 14008): Fontaine fifth wheel + bolt kit, R18,114 excl, paid cash|2026-11-24 Big Max Express cash 9139 (order 14008).pdf
+2026-11-24||Supplier invoice|Big Max Express cash 9139 (order 14008): Fontaine fifth wheel + bolt kit, R18,114 excl, paid cash (PL 217004 Lactalis)|2026-11-24 Big Max Express cash 9139 (order 14008).pdf
 2026-11-24||Supplier invoice|JMR Transport Solutions JTCINV138480 (PIR00014004): BPW brake shoes relined x4, repair kits x2, hubometer, R6,931.38 excl|2026-11-24 JMR JTCINV138480 (PIR14004).pdf
 2026-11-13|DN 23838|Delivery note|DN 23838 CRW Logistics (written CFW; 1 x diesel cap, SAC IPE177510 R500.19 excl; S/MAN JB; not invoiced yet)|2026-11-13 DN 23838 (CRW Logistics).jpg
 2026-11-24|QUO0013205|Quote|QUO0013205 ABSA VM fleet 1556 (JLG243EC) for PL 215943 Lactalis diesel tank weld, R3,550 excl|2026-11-24 QUO0013205 (ABSA VM fleet 1556, PL 215943).jpg
@@ -389,3 +389,4 @@
 2026-11-24|PL 216961|Invoice|INV0048405 Afrimat (grease pipes and fittings)|INV0048405.pdf
 2026-11-24||Supplier invoice|HAW E063158 (PIR0014010, DN 113443): 16 x BSPF0808 = I2B-0808 @ R18.20, R291.20 excl, booked to WH100|2026-11-24 HAW invoice (E063158).pdf
 2026-11-24|GQ-PO-00000860/1|Invoice|INV0048406 Scribante Concrete (counter, no DN)|INV0048406.pdf
+2026-11-24|PL 217004|Job card|PL 217004 Lactalis fleet 1552 JKM756EC (workshop, Jan: fit Fontaine fifth wheel + bolt kit from Big Max 9139 / order 14008; 2 h mech labour)|2026-11-24 PL 217004 (Lactalis).jpg
