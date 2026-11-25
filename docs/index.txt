@@ -408,4 +408,3 @@
 2026-11-24|QUO0013211|Quote|QUO0013211 ABSA VM fleet 1555 for PL 217003 (Jost fifth wheel, turbo, manifold, 5 h), R74,404.72 excl|2026-11-24 QUO0013211 (ABSA VM fleet 1555, PL 217003).pdf
 2026-11-24|WH400|Count note|WH400 corrected counts (Michael): I2B-0808 7, DSF1-2408 4, DLF1-1404 2, DSF1-2206 1|2026-11-24 WH400 corrected counts (Michael).jpg
 2026-11-25|PL 216975|Job card|PL 216975 Techni Construction (Walmer, tipper DYN 529 EC; tighten pressure pipe on hydraulic pump, check oil; no parts; WH500 Bradley, 1 h)|2026-11-25 PL 216975 (Techni Construction).jpg
-2026-11-23||Bank statement|DL *Microsoft ISO Milne R83.65 (card)|2026-11-23 Bank Microsoft R83.65.jpg
