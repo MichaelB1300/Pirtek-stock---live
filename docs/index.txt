@@ -390,3 +390,20 @@
 2026-11-24||Supplier invoice|HAW E063158 (PIR0014010, DN 113443): 16 x BSPF0808 = I2B-0808 @ R18.20, R291.20 excl, booked to WH100|2026-11-24 HAW invoice (E063158).pdf
 2026-11-24|GQ-PO-00000860/1|Invoice|INV0048406 Scribante Concrete (counter, no DN)|INV0048406.pdf
 2026-11-24|PL 217004|Job card|PL 217004 Lactalis fleet 1552 JKM756EC (workshop, Jan: fit Fontaine fifth wheel + bolt kit from Big Max 9139 / order 14008; 2 h mech labour)|2026-11-24 PL 217004 (Lactalis).jpg
+2026-11-11|PL 216860|Invoice|INV0048407 Bontel (cash, jump start)|INV0048407.pdf
+2026-11-24|PL 216938|Invoice|INV0048408 Silver Falls Trading (cash)|INV0048408.pdf
+2026-11-24|PL 216843|Invoice|INV0048409 Formex Industries (FF230925)|INV0048409.pdf
+2026-11-13|DN 23838|Invoice|INV0048410 CRW Logistics (cash, diesel cap)|INV0048410.pdf
+2026-11-24|QUO0013209|Quote|QUO0013209 ABSA VM fleet 1552 for PL 217004 (Fontaine fifth wheel + bolt kit + 2 h), R27,668 excl|2026-11-24 QUO0013209 (ABSA VM fleet 1552, PL 217004).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138496 (PIR14005): Jost fifth wheel 38C + 12 bolts, R36,944 excl|2026-11-24 JMR JTCINV138496 (PIR14005).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138498 (PIR14005): 40 checkpoint nuts, R78.40 excl|2026-11-24 JMR JTCINV138498 (PIR14005).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138503 (PIR13988): landing leg set + tipper ladder, R11,150 excl|2026-11-24 JMR JTCINV138503 (PIR13988).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138504 (PIR13987): BPW airbag, brake booster, shocks, bolts, R7,020.76 excl|2026-11-24 JMR JTCINV138504 (PIR13987).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138505 (PIR13993): Scania service filters + 60 L oil + chocks, R7,176.30 excl|2026-11-24 JMR JTCINV138505 (PIR13993).pdf
+2026-11-24||Supplier invoice|JMR JTCINV138507 (PIR13990): Scania service filters + 40 L oil + chocks, R5,852.40 excl|2026-11-24 JMR JTCINV138507 (PIR13990).pdf
+2026-11-24||Supplier invoice|CBS Port Elizabeth (Neave Industrial) 241582 (order 14013): clutch kit, spigot, flywheel machining, R8,450 excl|2026-11-24 CBS invoice (241582).pdf
+2026-11-23|PL 216500|Job card|PL 216500 Lactalis fleet 1552 JKM756EC Scania G460XT (workshop, Jan: service kit order 13995, SAC body parts order 14009, wheel chocks; 5 h)|2026-11-23 PL 216500 (Lactalis).jpg
+2026-11-24|PL 217003|Job card|PL 217003 Lactalis fleet 1555 JKY935EC (workshop, Jan: Jost 38C fifth wheel JMR 14005, turbo + manifold SAC 14006; quote 13211)|2026-11-24 PL 217003 (Lactalis).jpg
+2026-11-24|QUO0013210|Quote|QUO0013210 ABSA VM fleet 1552 for PL 216500 (service, body parts, 5 h), R16,086.20 excl|2026-11-24 QUO0013210 (ABSA VM fleet 1552, PL 216500).pdf
+2026-11-24|QUO0013211|Quote|QUO0013211 ABSA VM fleet 1555 for PL 217003 (Jost fifth wheel, turbo, manifold, 5 h), R74,404.72 excl|2026-11-24 QUO0013211 (ABSA VM fleet 1555, PL 217003).pdf
+2026-11-24|WH400|Count note|WH400 corrected counts (Michael): I2B-0808 7, DSF1-2408 4, DLF1-1404 2, DSF1-2206 1|2026-11-24 WH400 corrected counts (Michael).jpg
