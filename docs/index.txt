@@ -426,3 +426,5 @@
 2026-11-25|DN 23898|Delivery note|DN 23898 SY Truck and Trailer (3 x G-18L, 1 h machine & weld; Jared)|2026-11-25 DN 23898 (SY Truck and Trailer).jpg
 2026-11-25|DN 23898|Invoice|INV0048417 SY Truck and Trailer (3 x G-18L + machine & weld, R840.60 excl)|INV0048417.pdf
 2026-11-25|PL 215236|Invoice|INV0048423 Cash sale (cab tilt hose 0.4 m, 420-910 x2, 421-910, 421-955, ASSB; R538.04 excl)|INV0048423.pdf
+2026-11-25|PL 216940|Job card|PL 216940 Silver Falls, Markman (replace hyd hose 1.4 m 2SN-08, BF1-0808LPT, I2T-0808, CFN-08; Jan, 1 h, no call out)|2026-11-25 PL 216940 (Silver Falls).jpg
+2026-11-25||Supplier invoice|SAC IPE178852 (no order): MAN TGS driver seat R/H R15,300.00 excl|2026-11-25 SAC IPE178852.pdf
