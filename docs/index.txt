@@ -408,3 +408,21 @@
 2026-11-24|QUO0013211|Quote|QUO0013211 ABSA VM fleet 1555 for PL 217003 (Jost fifth wheel, turbo, manifold, 5 h), R74,404.72 excl|2026-11-24 QUO0013211 (ABSA VM fleet 1555, PL 217003).pdf
 2026-11-24|WH400|Count note|WH400 corrected counts (Michael): I2B-0808 7, DSF1-2408 4, DLF1-1404 2, DSF1-2206 1|2026-11-24 WH400 corrected counts (Michael).jpg
 2026-11-25|PL 216975|Job card|PL 216975 Techni Construction (Walmer, tipper DYN 529 EC; tighten pressure pipe on hydraulic pump, check oil; no parts; WH500 Bradley, 1 h)|2026-11-25 PL 216975 (Techni Construction).jpg
+2026-11-24||Supplier invoice|HAW E063177 (PIR0014011, DN 113444): 28 m 4SH-16 @ R234.86, 16 x SP 538 (38 mm double clamp) @ R36.69, 16 x SP 320 (20 mm double clamp) @ R28.95, R7,626.32 excl, booked to WH100|2026-11-24 HAW invoice (E063177).pdf
+2026-11-20|PL 216844|Invoice|INV0048411 Denys Edwards (cash, re-crimp WAP hose)|INV0048411.pdf
+2026-11-24|DN 23894|Delivery note|DN 23894 Jambisko (KKY 975 EC, control valve + 60cc pump; Jared)|2026-11-24 DN 23894 (Jambisko).jpg
+2026-11-24|DN 23894|Invoice|INV0048412 Jambisko Trading (cash, control valve, pump, oil)|INV0048412.pdf
+2026-11-24|DN 23892|Delivery note|DN 23892 Toray (order 1503/KJX39, 12 hose assemblies; Jared)|2026-11-24 DN 23892 (Toray).jpg
+2026-11-24|DN 23892|Invoice|INV0048413 TLC Toray Logistics (cash, 12 hoses, machine & weld)|INV0048413.pdf
+2026-11-25||Supplier invoice|CBS 241600 (order 14012): 4 drums machined @ R140, 8 shoes riveted MP36STD @ R300, R2,960.00 excl|2026-11-25 CBS invoice (241600).pdf
+2026-11-25|DN 23897|Delivery note|DN 23897 JL Robinson (cash, 1 hose 2SN-08; Jared)|2026-11-25 DN 23897 (JL Robinson).jpg
+2026-11-25|DN 23897|Invoice|INV0048414 JL Robinson (cash, 1 hose)|INV0048414.pdf
+2026-11-25|PL 216975|Invoice|INV0048415 Techni Construction (tipper DYN 529 EC, call out + 1 h)|INV0048415.pdf
+2026-11-25|DN 23895|Invoice|INV0048416 Dodots Projects (cash, 2 hoses 1.35 m 2SN-08)|INV0048416.pdf
+2026-11-25||Credit note|CRN0000897 credits PL 216754 Afrimat (oil credit R4,521.74 excl, PL 216754 09-10-26)|CRN0000897.pdf
+2026-11-25||Supplier invoice|Big Max Express cash 9168 (order 14016): Scania fuel saver R1,415.52 + diesel cap R97.30, R1,512.78 excl|2026-11-25 Big Max Express cash 9168 (order 14016).pdf
+2026-11-23||Supplier invoice|BMG 0142/11013109 (order 13999): 5 m 12B-2 duplex chain @ R284.45, R1,422.25 excl, for PL 216848 Fecobrakes|2026-11-23 BMG invoice 0142-11013109 (order 13999, Fecobrakes).jpg
+2026-11-25||Supplier invoice|SAC IPE178779 (PIR14007): Scania fog light R786.51 + water bottle cap R153.47, R939.98 excl|2026-11-25 SAC IPE178779 (PIR14007).pdf
+2026-11-25|DN 23898|Delivery note|DN 23898 SY Truck and Trailer (3 x G-18L, 1 h machine & weld; Jared)|2026-11-25 DN 23898 (SY Truck and Trailer).jpg
+2026-11-25|DN 23898|Invoice|INV0048417 SY Truck and Trailer (3 x G-18L + machine & weld, R840.60 excl)|INV0048417.pdf
+2026-11-25|PL 215236|Invoice|INV0048423 Cash sale (cab tilt hose 0.4 m, 420-910 x2, 421-910, 421-955, ASSB; R538.04 excl)|INV0048423.pdf
