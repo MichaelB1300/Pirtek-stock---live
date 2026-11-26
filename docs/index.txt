@@ -448,3 +448,15 @@
 2026-11-25|DN 23901|Invoice|INV0048428 Bontel cash (R1,571.08 excl)|INV0048428.pdf
 2026-11-26|Restock|Restock note|WH500 restock 26-11-26 (Bradley): 6 x 6601/2-08, 2 CFN-04, I2C-1404, I2J-0704 (written I2Z/I23-0704)|2026-11-26 WH500 restock (Bradley).jpg
 2026-11-26|PL 216979|Job card|PL 216979 Value (Markman, Hangcha F2718, 6315 hrs): replace side-shift hose on forklift, 0.3 m 2SN-04, 2 x I2C-1404, 2 x CFN-04 (1 hose), assembly + service call ticked, 09:00-10:00, Bradley, S/MAN 13.13 WH500|2026-11-26 PL 216979 (Value).jpg
+2026-11-25|DN 23896|Delivery note|DN 23896 JMR (order JTCPO47718; 4 x DW-14M; S/MAN JB, received by Petrus)|2026-11-25 DN 23896 (JMR).jpg
+2026-11-26|DN 23902|Delivery note|DN 23902 Northfield Engineering (PO 035758; 0.3 m 2SN-06 + 2 x JF1 written JF1-0904, invoiced JF1-09-06 LPT; S/MAN JB)|2026-11-26 DN 23902 (Northfield Engineering).jpg
+2026-11-25|PL 216940|Invoice|INV0048429 Silver Falls, Markman (R1,172.20 excl; service call billed)|INV0048429.pdf
+2026-11-16|PL 216496|Invoice|INV0048430 Lactalis fleet 1288 DKJ872EC (R13,408.00 excl = QUO0013189)|INV0048430.pdf
+2026-11-26|PL 216492|Invoice|INV0048431 Lactalis fleet 1300 DPM543EC (R6,577.00 excl = QUO0013033)|INV0048431.pdf
+2026-11-26|PL 216845|Invoice|INV0048432 Ferobrake, PL 216845 + PL 216846 together (R9,885.70 excl)|INV0048432.pdf
+2026-11-26|PL 216847|Invoice|INV0048433 Ferobrake (R5,061.40 excl; 3 h AH)|INV0048433.pdf
+2026-11-26|PL 216848|Invoice|INV0048434 Ferobrake (R23,607.89 excl; incl. 2 x HP Parker filters R4,850 each)|INV0048434.pdf
+2026-11-25|DN 23896|Invoice|INV0048435 JMR supply only (R40.28 excl)|INV0048435.pdf
+2026-11-26|DN 23902|Invoice|INV0048436 Northfield Engineering (R182.80 excl)|INV0048436.pdf
+2026-11-26|PL 216978|Invoice|INV0048437 Silver Falls (R1,512.50 excl; AH labour 1 h billed)|INV0048437.pdf
+2026-11-24||Supplier POD|JMR signed POD for JTCINV138496 + JTCINV138498 (PIR14005, PL 217003 Lactalis fleet 1555; both invoices already booked)|2026-11-24 JMR POD JTCINV138496 + 138498 (signed).pdf
