@@ -447,4 +447,4 @@
 2026-11-25|DN 23901|Delivery note|DN 23901 Bontel (1.8 m STH-10, 2 I2C-2610, 2 ZN7-10, G-18L, 1 h labour compressor pipe, Fuso KJ99HHGP; Bradley)|2026-11-25 DN 23901 (Bontel).jpg
 2026-11-25|DN 23901|Invoice|INV0048428 Bontel cash (R1,571.08 excl)|INV0048428.pdf
 2026-11-26|Restock|Restock note|WH500 restock 26-11-26 (Bradley): 6 x 6601/2-08, 2 CFN-04, I2C-1404, I2J-0704 (written I2Z/I23-0704)|2026-11-26 WH500 restock (Bradley).jpg
-2026-11-26|PL 216979|Job card|PL 216979 Valwe (Markman, Hangcha F2718, 6315 hrs): replace side-shift hose on forklift, 0.3 m 2SN-04, 2 x I2C-1404, 2 x CFN-04 (1 hose), assembly + service call ticked, 09:00-10:00, Bradley, S/MAN 13.13 WH500|2026-11-26 PL 216979 (Valwe).jpg
+2026-11-26|PL 216979|Job card|PL 216979 Value (Markman, Hangcha F2718, 6315 hrs): replace side-shift hose on forklift, 0.3 m 2SN-04, 2 x I2C-1404, 2 x CFN-04 (1 hose), assembly + service call ticked, 09:00-10:00, Bradley, S/MAN 13.13 WH500|2026-11-26 PL 216979 (Value).jpg
