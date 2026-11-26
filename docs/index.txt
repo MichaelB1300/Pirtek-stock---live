@@ -428,3 +428,7 @@
 2026-11-25|PL 215236|Invoice|INV0048423 Cash sale (cab tilt hose 0.4 m, 420-910 x2, 421-910, 421-955, ASSB; R538.04 excl)|INV0048423.pdf
 2026-11-25|PL 216940|Job card|PL 216940 Silver Falls, Markman (replace hyd hose 1.4 m 2SN-08, BF1-0808LPT, I2T-0808, CFN-08; Jan, 1 h, no call out)|2026-11-25 PL 216940 (Silver Falls).jpg
 2026-11-25||Supplier invoice|SAC IPE178852 (no order): MAN TGS driver seat R/H R15,300.00 excl|2026-11-25 SAC IPE178852.pdf
+2026-11-23|PL 216870|Job card|PL 216870 Bontel (brake shoes + drums, 4 slack adjusters, cons R400; Petrus, 9 h; order 14012, QTE 13215)|2026-11-23 PL 216870 (Bontel).jpg
+2026-11-23|PL 216870|Quote|QUO0013215 Bontel R15,840.00 excl (slack adjusters, drums, shoes, cons, 9 h LAB MEC1)|2026-11-23 QUO0013215 (PL 216870 Bontel).pdf
+2026-11-25||Supplier invoice|Universal Equipment INV87649: 2 + 2 slack adjusters NG80B @ R880, R3,520.00 excl (PL 216870)|2026-11-25 Universal Equipment invoice (INV87649).jpg
+2026-11-25||Supplier invoice|Chapman Brothers 416312: 4 x 1/2" nuts + 4 x 30 mm ext circlips, R59.40 excl (PL 216870)|2026-11-25 Chapman Brothers invoice (416312).jpg
