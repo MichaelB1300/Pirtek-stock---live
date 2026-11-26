@@ -432,3 +432,19 @@
 2026-11-23|PL 216870|Quote|QUO0013215 Bontel R15,840.00 excl (slack adjusters, drums, shoes, cons, 9 h LAB MEC1)|2026-11-23 QUO0013215 (PL 216870 Bontel).pdf
 2026-11-25||Supplier invoice|Universal Equipment INV87649: 2 + 2 slack adjusters NG80B @ R880, R3,520.00 excl (PL 216870)|2026-11-25 Universal Equipment invoice (INV87649).jpg
 2026-11-25||Supplier invoice|Chapman Brothers 416312: 4 x 1/2" nuts + 4 x 30 mm ext circlips, R59.40 excl (PL 216870)|2026-11-25 Chapman Brothers invoice (416312).jpg
+2026-11-25|PL 216871|Job card|PL 216871 Lactalis (JKT 124 EC, FL 1551, KL 490403): remove diesel drum, weld and fit diesel tank, mudflap bracket; cons R500; Petrus 4 h; order 14003|2026-11-25 PL 216871 (Lactalis).jpg
+2026-11-23||Supplier delivery note|Mr Screw DN 287379 (order 14003): 2 x 10x120 HT bolts + 2 x M10 nyloc nuts, no prices (PL 216871)|2026-11-23 Mr Screw DN 287379 (order 14003).jpg
+2026-11-26|PL 216871|Quote|QUO0013216 ABSA VM (Lactalis fleet 1551) R3,925.00 excl (PS01 weld 2.5 h, LAB MEC1 3 h, cons R500)|2026-11-26 QUO0013216 (PL 216871 Lactalis).pdf
+2026-11-14|PL 216497|Job card|PL 216497 Lactalis fleet 1398 (workshop, 158071 km): landing legs + stainless ladder R12,905 excl; order 13988 JMR; QTE 13217; no tech or hours|2026-11-14 PL 216497 (Lactalis fleet 1398).jpg
+2026-11-26|PL 216497|Quote|QUO0013217 ABSA VM (Lactalis fleet 1398) R17,255.00 excl (landing legs R12,905, stainless ladder R2,550, LAB MEC1 3 h)|2026-11-26 QUO0013217 (PL 216497 Lactalis).pdf
+2026-11-26|QUO0013218|Quote|QUO0013218 ABSA VM (Lactalis fleet 1555, JKY935EC) R27,629.20 excl: service (filters, 43 L 15W40, 10 L HYD68), body trims, battery box cover, fog light, wheel check points + chocks, cons R850, LAB MEC1 7 h. = PL 216498|2026-11-26 QUO0013218 (ABSA VM fleet 1555, card not received).pdf
+2026-11-23|PL 216498|Job card|PL 216498 Lactalis fleet 1555 JKY935EC Scania G460 XT (workshop, S/MAN MB, contact Juan): JMR service kit 13993, SAC body parts 14007, wheel chocks; 14005 fifth wheel crossed out; quote QUO0013218|2026-11-23 PL 216498 (Lactalis fleet 1555).jpg
+2026-11-26|PL 216978|Job card|PL 216978 Silver Falls (Harbour, Scania MT84DDGP, 913854 km): replace broken coupler on rear trailer, 1 x 6001-08 + 1 x 6002-08 (= 6601/2 - 08 pair), assembly + service call ticked, 07:00-08:50 'After', Bradley, S/MAN BB WH500|2026-11-26 PL 216978 (Silver Falls).jpg
+2026-11-20|DN 23877|Delivery note|DN 23877 Malanco (suction strainer, AH/B/CLJN/A-0808, 0.5 m 25 mm steel tube, 1.8 m + 3 m 2SN-08 sets, I2B-0606 + CFN-06 recrimp; Jared)|2026-11-20 DN 23877 (Malanco).jpg
+2026-11-20|DN 23877|Invoice|INV0048426 Malanco cash (R1,813.21 excl)|INV0048426.pdf
+2026-11-25|DN 23900|Delivery note|DN 23900 PE Air Brakes (1 m STH-08 + JFK-2208 + I2C9-2208, 2 ZN7-08; failed crimp redo I2C9-2208 + ZN7-08; Jared)|2026-11-25 DN 23900 (PE Air Brakes).jpg
+2026-11-25|DN 23900|Invoice|INV0048427 PE Air Brakes, order B18328 (R581.50 excl)|INV0048427.pdf
+2026-11-25|DN 23901|Delivery note|DN 23901 Bontel (1.8 m STH-10, 2 I2C-2610, 2 ZN7-10, G-18L, 1 h labour compressor pipe, Fuso KJ99HHGP; Bradley)|2026-11-25 DN 23901 (Bontel).jpg
+2026-11-25|DN 23901|Invoice|INV0048428 Bontel cash (R1,571.08 excl)|INV0048428.pdf
+2026-11-26|Restock|Restock note|WH500 restock 26-11-26 (Bradley): 6 x 6601/2-08, 2 CFN-04, I2C-1404, I2J-0704 (written I2Z/I23-0704)|2026-11-26 WH500 restock (Bradley).jpg
+2026-11-26|PL 216979|Job card|PL 216979 Valwe (Markman, Hangcha F2718, 6315 hrs): replace side-shift hose on forklift, 0.3 m 2SN-04, 2 x I2C-1404, 2 x CFN-04 (1 hose), assembly + service call ticked, 09:00-10:00, Bradley, S/MAN 13.13 WH500|2026-11-26 PL 216979 (Valwe).jpg
