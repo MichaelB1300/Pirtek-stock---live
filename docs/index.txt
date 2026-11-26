@@ -460,3 +460,5 @@
 2026-11-26|DN 23902|Invoice|INV0048436 Northfield Engineering (R182.80 excl)|INV0048436.pdf
 2026-11-26|PL 216978|Invoice|INV0048437 Silver Falls (R1,512.50 excl; AH labour 1 h billed)|INV0048437.pdf
 2026-11-24||Supplier POD|JMR signed POD for JTCINV138496 + JTCINV138498 (PIR14005, PL 217003 Lactalis fleet 1555; both invoices already booked)|2026-11-24 JMR POD JTCINV138496 + 138498 (signed).pdf
+2026-11-05|DN 23780|Delivery note|DN 23780 Lactalis fleet 1394 (order 13937, contact Juan, 368657 km): 24 m 25 mm steel tube, 6 x G-25S, 20 L HYD68, 16 x 25 mm clamps, 5 h labour; Piet|2026-11-05 DN 23780 (Lactalis).jpg
+2026-11-26|DN 23780|Invoice|INV0048438 Lactalis fleet 1394 (R13,198.60 excl = QUO0013188)|INV0048438.pdf
