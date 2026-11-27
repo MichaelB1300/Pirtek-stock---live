@@ -481,3 +481,5 @@
 2026-11-27|PL 216979|Sales invoice|INV0048445 Value Logistics, R1,200.42 excl (1.5 h LAB1 + service call)|INV0048445.pdf
 2026-11-27|DN 23911|Delivery note|DN 23911 Sayflex Logistics cash (S/MAN JB, JLC 360 FS, 3.5 m 2SN-08 hose + 1 h labour)|2026-11-27 DN 23911 (Sayflex Logistics).jpg
 2026-11-27|DN 23911|Sales invoice|INV0048446 Sayflex Logistics cash, R1,126.60 excl|INV0048446.pdf
+2026-11-03|DN 23756|Sales invoice|INV0048447 Heineken Beverages cash, power pack pump repair (new pin and bushes), R695.00 excl (invoiced 27-11-26)|INV0048447.pdf
+2026-11-27|INV0048448|Sales invoice|INV0048448 KAL Engineering cash, 0.4 m STH-06 + 2 I2J-0906 + 2 ZN7-06, R264.10 excl (no DN)|INV0048448.pdf
