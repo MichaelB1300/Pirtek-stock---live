@@ -470,3 +470,4 @@
 2026-11-26|DN 23908|Sales invoice|INV0048441 Spectrum Logistics (cash, supply only)|INV0048441.pdf
 2026-11-23|PL 216870|Sales invoice|INV0048442 Bontel (cash, FL106 JV2655GP), R15,840 excl = QUO0013215|INV0048442.pdf
 2026-11-25||Supplier invoice|Hydraulic Division IN139516 (PO14015, ref Transmart PIR34094): 2 x 3PH-BF90-32-32, 2 x 3PH-NSS-32, 2 x 3PA-HNBT-32-32, R1,749.40 excl; job not found yet|2026-11-25 Hydraulic Division IN139516.pdf
+2026-11-27|PL 217055|Job card|PL 217055 Kalahari Auto Force (Katanga, DFT 329 NC; Dillyn WH300, 02:00-03:00 AH, service call)|2026-11-27 PL 217055 (Kalahari Auto Force).jpg
