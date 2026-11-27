@@ -485,3 +485,5 @@
 2026-11-27|INV0048448|Sales invoice|INV0048448 KAL Engineering cash, 0.4 m STH-06 + 2 I2J-0906 + 2 ZN7-06, R264.10 excl (no DN)|INV0048448.pdf
 2026-11-27|WH300 restock|Restock note|WH300 restock 27-11-26 (Dillyn): JF1-1712LPT 1, I2J9-1712 1 (for JF9-1712LPT), I2J-1208 2, CFN-08 2, I2B-0808 2 (for BF1-0808LPT), HYD68 60 L; from WH100|2026-11-27 WH300 restock (Dillyn).jpg
 2026-11-27|PL 216942|Job card|PL 216942 D's Auto Clinic (Despatch, JZR 057 EC; Jan, 12:00-13:00, service call, 40 km)|2026-11-27 PL 216942 (D's Auto Clinic).jpg
+2026-11-25|PL 215235|Job card|PL 215235 Pro Type (contact Sheldon, STI 65J 158; Jan, 1 x Fuso PTO, order 14017)|2026-11-25 PL 215235 (Pro Type).jpg
+2026-11-25|PL 215235|Sales invoice|INV0048449 Pro Type, Fuso PTO R24,920.00 excl|INV0048449.pdf
