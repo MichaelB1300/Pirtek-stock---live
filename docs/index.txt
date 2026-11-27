@@ -474,3 +474,8 @@
 2026-11-26|PL 217053|Job card|PL 217053 Bergie Transport (Markman, JKJ 223 FS; Dillyn WH300, 20:00-21:00 AH, service call)|2026-11-26 PL 217053 (Bergie Transport).jpg
 2026-11-26|PL 217054|Job card|PL 217054 Kalahari Auto Force (Markman, AF157 DDM 465 NC; Dillyn WH300, 2 hoses, 22:30-23:30 AH, service call)|2026-11-26 PL 217054 (Kalahari Auto Force).jpg
 2026-11-27|PL 216941|Job card|PL 216941 Rennasance Construction (TLB; Jan WH400, 08:00-09:00 1 h, 1 x 7001/02/12)|2026-11-27 PL 216941 (Rennasance Construction).jpg
+2026-11-25|PL 216977|Job card|PL 216977 Value (Deal Party, Hangcha F2448; Bradley WH500, 16:00-17:00, service call, 'Stock replaced')|2026-11-25 PL 216977 (Value).jpg
+2026-11-26|PL 216977|Sales invoice|INV0048443 Value Logistics, R1,356.31 excl (1.5 h LAB1 + service call)|INV0048443.pdf
+2026-11-26|DN 23905|Delivery note|DN 23905 Kalahari Auto Force (S/MAN JB, PO 048366, 2 x 2.1 m 2SN-08 hoses)|2026-11-26 DN 23905 (Kalahari Auto Force).jpg
+2026-11-26|DN 23905|Sales invoice|INV0048444 Kalahari Auto Force, R892.00 excl|INV0048444.pdf
+2026-11-27|PL 216979|Sales invoice|INV0048445 Value Logistics, R1,200.42 excl (1.5 h LAB1 + service call)|INV0048445.pdf
