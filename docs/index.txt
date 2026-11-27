@@ -484,3 +484,4 @@
 2026-11-03|DN 23756|Sales invoice|INV0048447 Heineken Beverages cash, power pack pump repair (new pin and bushes), R695.00 excl (invoiced 27-11-26)|INV0048447.pdf
 2026-11-27|INV0048448|Sales invoice|INV0048448 KAL Engineering cash, 0.4 m STH-06 + 2 I2J-0906 + 2 ZN7-06, R264.10 excl (no DN)|INV0048448.pdf
 2026-11-27|WH300 restock|Restock note|WH300 restock 27-11-26 (Dillyn): JF1-1712LPT 1, I2J9-1712 1 (for JF9-1712LPT), I2J-1208 2, CFN-08 2, I2B-0808 2 (for BF1-0808LPT), HYD68 60 L; from WH100|2026-11-27 WH300 restock (Dillyn).jpg
+2026-11-27|PL 216942|Job card|PL 216942 D's Auto Clinic (Despatch, JZR 057 EC; Jan, 12:00-13:00, service call, 40 km)|2026-11-27 PL 216942 (D's Auto Clinic).jpg
