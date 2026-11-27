@@ -471,3 +471,5 @@
 2026-11-23|PL 216870|Sales invoice|INV0048442 Bontel (cash, FL106 JV2655GP), R15,840 excl = QUO0013215|INV0048442.pdf
 2026-11-25||Supplier invoice|Hydraulic Division IN139516 (PO14015, ref Transmart PIR34094): 2 x 3PH-BF90-32-32, 2 x 3PH-NSS-32, 2 x 3PA-HNBT-32-32, R1,749.40 excl; job not found yet|2026-11-25 Hydraulic Division IN139516.pdf
 2026-11-27|PL 217055|Job card|PL 217055 Kalahari Auto Force (Katanga, DFT 329 NC; Dillyn WH300, 02:00-03:00 AH, service call)|2026-11-27 PL 217055 (Kalahari Auto Force).jpg
+2026-11-26|PL 217053|Job card|PL 217053 Bergie Transport (Markman, JKJ 223 FS; Dillyn WH300, 20:00-21:00 AH, service call)|2026-11-26 PL 217053 (Bergie Transport).jpg
+2026-11-26|PL 217054|Job card|PL 217054 Kalahari Auto Force (Markman, AF157 DDM 465 NC; Dillyn WH300, 2 hoses, 22:30-23:30 AH, service call)|2026-11-26 PL 217054 (Kalahari Auto Force).jpg
