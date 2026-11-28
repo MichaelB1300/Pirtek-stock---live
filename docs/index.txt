@@ -500,3 +500,4 @@
 2026-11-27|DN 23915|Sales invoice|INV0048454 Titan Plant Hire cash|INV0048454.pdf
 2026-11-05|PL 216911|Job card|PL 216911 Woodlands Dairy (scan)|2026-11-05 PL 216911 (Woodlands Dairy) rescan.jpg
 2026-11-27|PL 216911|Sales invoice|INV0048455 Woodlands Dairy, R6,292.90 excl|INV0048455.pdf
+2026-11-28|PL 216944|Job card|PL 216944 Lactalis (Fleet Dynamic, fleet 1557, JLL 776 EC; Jan WH400, Sat 11:30-12:30 AH, service call)|2026-11-28 PL 216944 (Lactalis).jpg
